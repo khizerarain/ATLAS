@@ -1,0 +1,38 @@
+{
+  "turkey": {
+    "visa": "E-visa available online for most nationalities; valid for 90 days.",
+    "emergency_numbers": "112 (general emergency)",
+    "best_months": "April–May and September–October",
+    "weather_overview": "Mediterranean climate on the coasts, continental inland; hot dry summers, mild wet winters."
+  },
+  "japan": {
+    "visa": "Visa-free for many nationalities for stays up to 90 days.",
+    "emergency_numbers": "110 (police), 119 (fire/ambulance)",
+    "best_months": "March–May (cherry blossoms) and September–November (autumn foliage)",
+    "weather_overview": "Four distinct seasons; humid summers, cold winters with snow in the north."
+  },
+  "france": {
+    "visa": "Schengen visa required for many non-EU nationalities; visa-free for EU/Schengen members.",
+    "emergency_numbers": "112 (general emergency)",
+    "best_months": "April–June and September–October",
+    "weather_overview": "Temperate climate; mild winters and warm summers."
+  },
+  "egypt": {
+    "visa": "E-visa or visa on arrival available for most nationalities.",
+    "emergency_numbers": "122 (police), 123 (ambulance)",
+    "best_months": "October–April (cooler, drier weather)",
+    "weather_overview": "Desert climate; very hot summers, mild winters."
+  },
+  "brazil": {
+    "visa": "Visa-free for many nationalities for short stays; check current requirements.",
+    "emergency_numbers": "190 (police), 192 (ambulance)",
+    "best_months": "May–September (dry season in most regions)",
+    "weather_overview": "Tropical climate; hot and humid, with a distinct rainy season."
+  },
+  "india": {
+    "visa": "E-visa available online for most nationalities.",
+    "emergency_numbers": "112 (general emergency)",
+    "best_months": "October–March (cooler, drier weather)",
+    "weather_overview": "Varied climate; hot summers, monsoon season, mild winters."
+  }
+}

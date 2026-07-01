@@ -1,0 +1,7 @@
+typer[all]
+rich
+requests
+openai
+python-dotenv
+thefuzz
+python-Levenshtein
