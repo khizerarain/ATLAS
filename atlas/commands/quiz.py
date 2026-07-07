@@ -7,7 +7,7 @@ from pathlib import Path
 import typer
 from rich.table import Table
 
-from core.display import show_error, show_loading, show_success
+from atlas.core.display import show_error, show_loading, show_success
 
 app = typer.Typer(help="Take a geography quiz")
 

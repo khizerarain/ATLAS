@@ -98,5 +98,25 @@
     "flags": {"png": "https://flagcdn.com/w320/au.png"},
     "independent": true,
     "unMember": true
+  },
+  {
+    "name": {"common": "Pakistan", "official": "Islamic Republic of Pakistan"},
+    "capital": ["Islamabad"],
+    "population": 241499431,
+    "area": 881913,
+    "currencies": {"PKR": {"name": "Pakistani rupee", "symbol": "Rs"}},
+    "languages": {"eng": "English", "urd": "Urdu"},
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "flag": "\ud83c\uddf5\ud83c\uddf0",
+    "tld": [".pk"],
+    "timezones": ["Asia/Karachi"],
+    "borders": ["AFG", "CHN", "IND", "IRN"],
+    "cca2": "PK",
+    "cca3": "PAK",
+    "latlng": [30.0, 70.0],
+    "flags": {"png": "https://flagcdn.com/w320/pk.png"},
+    "independent": true,
+    "unMember": true
   }
 ]

@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import typer
 
-from core.api import check_internet, convert_currency
-from core.display import show_conversion, show_error, show_no_internet
+from atlas.core.api import check_internet, convert_currency
+from atlas.core.display import show_conversion, show_error, show_no_internet
 
 app = typer.Typer(help="Convert currencies")
 

@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import typer
 
-from core.api import check_internet, get_all_countries
-from core.display import show_error, show_learn_panel, show_no_internet
+from atlas.core.api import check_internet, get_all_countries
+from atlas.core.display import show_error, show_learn_panel, show_no_internet
 
 app = typer.Typer(help="Learn continent summaries")
 

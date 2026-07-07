@@ -8,15 +8,15 @@ from dotenv import load_dotenv
 from rich.console import Console
 from rich.prompt import Prompt
 
-from commands.ask import ask_ai_command
-from commands.compare import compare_countries
-from commands.country import country_lookup
-from commands.currency import convert_currency_command
-from commands.learn import show_continent_summary
-from commands.quiz import run_quiz
-from commands.rankings import show_rankings
-from commands.travel import travel_info
-from core.display import (
+from atlas.commands.ask import ask_ai_command
+from atlas.commands.compare import compare_countries
+from atlas.commands.country import country_lookup
+from atlas.commands.currency import convert_currency_command
+from atlas.commands.learn import show_continent_summary
+from atlas.commands.quiz import run_quiz
+from atlas.commands.rankings import show_rankings
+from atlas.commands.travel import travel_info
+from atlas.core.display import (
     show_error,
     show_success,
     show_title_banner,
@@ -94,7 +94,7 @@ def interactive_menu() -> None:
             convert_currency_command(float(amount), from_code, to_code)
         elif choice == "5":
             country_name = Prompt.ask("Country", console=console)
-            from commands.country import show_world_clock_command
+            from atlas.commands.country import show_world_clock_command
 
             show_world_clock_command(country_name)
         elif choice == "6":

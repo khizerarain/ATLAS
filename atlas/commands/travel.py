@@ -5,7 +5,7 @@ from pathlib import Path
 
 import typer
 
-from core.display import show_error
+from atlas.core.display import show_error
 
 app = typer.Typer(help="Travel tips and info")
 

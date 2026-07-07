@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import typer
 
-from core.api import check_internet, get_all_countries
-from core.display import show_error, show_no_internet, show_rankings_table
+from atlas.core.api import check_internet, get_all_countries
+from atlas.core.display import show_error, show_no_internet, show_rankings_table
 
 app = typer.Typer(help="Show top rankings")
 

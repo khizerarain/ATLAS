@@ -4,8 +4,8 @@ import os
 
 import typer
 
-from core.api import ask_ai, check_internet
-from core.display import show_ai_answer, show_error, show_no_internet, show_warning
+from atlas.core.api import ask_ai, check_internet
+from atlas.core.display import show_ai_answer, show_error, show_no_internet, show_warning
 
 app = typer.Typer(help="Ask ATLAS AI")
 

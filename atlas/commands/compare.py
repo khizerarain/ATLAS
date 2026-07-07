@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import typer
 
-from core.api import check_internet, get_country
-from core.display import show_comparison_table, show_error, show_no_internet
+from atlas.core.api import check_internet, get_country
+from atlas.core.display import show_comparison_table, show_error, show_no_internet
 
 app = typer.Typer(help="Compare two countries")
 

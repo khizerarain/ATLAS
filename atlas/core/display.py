@@ -6,13 +6,29 @@ just call these functions instead of formatting output themselves.
 """
 from __future__ import annotations
 
+import sys
+
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
 from rich.align import Align
 
-from core.utils import format_population, format_area, format_number
+from atlas.core.utils import format_population, format_area, format_number
+
+
+def _configure_utf8_streams() -> None:
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if reconfigure is None:
+            continue
+        try:
+            reconfigure(encoding="utf-8")
+        except (OSError, ValueError):
+            pass
+
+
+_configure_utf8_streams()
 
 console = Console()
 

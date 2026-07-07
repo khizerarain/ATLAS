@@ -3,8 +3,8 @@ from __future__ import annotations
 import typer
 from rich.prompt import Prompt
 
-from core.api import check_internet, get_country, search_countries
-from core.display import show_country_card, show_error, show_loading, show_no_internet, show_suggestions
+from atlas.core.api import check_internet, get_country, search_countries
+from atlas.core.display import show_country_card, show_error, show_loading, show_no_internet, show_suggestions
 
 app = typer.Typer(help="Look up country details")
 
@@ -60,6 +60,6 @@ def show_world_clock_command(country_name: str) -> None:
     now = datetime.now(ZoneInfo(tz_name))
     offset = now.strftime("%z")
     offset_text = f"UTC{offset[:3]}:{offset[3:]}"
-    from core.display import show_world_clock
+    from atlas.core.display import show_world_clock
 
     show_world_clock(f"{data.get('capital', 'N/A')}, {data.get('name', 'N/A')}", now.strftime("%Y-%m-%d %H:%M:%S"), offset_text)

@@ -1,12 +1,26 @@
 # ATLAS
 
+## Installation
+
+```bash
+pip install atlas-cli
+```
+
+Then run:
+
+```bash
+atlas
+```
+
+No cloning required.
+
 ATLAS is a Python command-line experience for exploring the world from your terminal. It combines country data, rankings, currency conversion, travel tips, a geography quiz, and AI-powered explanations into a single polished dashboard.
 
 ![ATLAS demo](demo.gif)
 
 > Animated demo placeholder — add a GIF named demo.gif to this folder to replace the placeholder.
 
-## Installation
+## Development
 
 ```bash
 git clone https://github.com/khizerarain/atlas
@@ -14,7 +28,7 @@ cd atlas
 pip install -r requirements.txt
 cp .env.example .env
 # Add your API keys to .env
-python main.py
+python -m atlas.main
 ```
 
 ## Commands
