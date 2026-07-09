@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-pip install atlas-cli
+pip install atlas-world-intel
 ```
 
 Then run:
